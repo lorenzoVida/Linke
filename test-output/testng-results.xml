@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16055" started-at="2019-09-03T06:41:01Z" finished-at="2019-09-03T06:41:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16055" started-at="2019-09-03T06:41:01Z" finished-at="2019-09-03T06:41:17Z">
+      <class name="Busqueda.Google.Search">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Busqueda.Google.Search@5e5792a0]" name="setUp" is-config="true" duration-ms="12944" started-at="2019-09-03T06:41:01Z" finished-at="2019-09-03T06:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DigitarPruebas()[pri:0, instance:Busqueda.Google.Search@5e5792a0]" name="DigitarPruebas" duration-ms="2726" started-at="2019-09-03T06:41:14Z" finished-at="2019-09-03T06:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigitarPruebas -->
+        <test-method status="PASS" signature="ValidarPalabra()[pri:0, instance:Busqueda.Google.Search@5e5792a0]" name="ValidarPalabra" duration-ms="117" started-at="2019-09-03T06:41:17Z" depends-on-methods="Busqueda.Google.Search.DigitarPruebas" finished-at="2019-09-03T06:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidarPalabra -->
+        <test-method status="PASS" signature="ClickSobrePalabra()[pri:0, instance:Busqueda.Google.Search@5e5792a0]" name="ClickSobrePalabra" duration-ms="130" started-at="2019-09-03T06:41:17Z" depends-on-methods="Busqueda.Google.Search.ValidarPalabra" finished-at="2019-09-03T06:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSobrePalabra -->
+        <test-method status="PASS" signature="ObtenerListaResultados()[pri:0, instance:Busqueda.Google.Search@5e5792a0]" name="ObtenerListaResultados" duration-ms="82" started-at="2019-09-03T06:41:17Z" depends-on-methods="Busqueda.Google.Search.ClickSobrePalabra" finished-at="2019-09-03T06:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObtenerListaResultados -->
+      </class> <!-- Busqueda.Google.Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
